@@ -18,7 +18,8 @@ div.introText {
     padding: 40px;
 }
 
-/* Scroll arrow down */
+
+/* Scroll arrow down on intro page*/
 
 h1 img {
     max-width: 8%;
@@ -107,7 +108,7 @@ ul li a {
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
-
+ 
 .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
     left: 0;
     right: 0;
@@ -129,4 +130,10 @@ p img.meImage {
     max-width: 40%;
     float: left;
 }
+
+
+
+
+
+
 
