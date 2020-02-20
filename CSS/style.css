@@ -21,13 +21,13 @@ div.introText {
 /* Scroll arrow down */
 
 h1 img {
-    max-width: 10%;
+    max-width: 8%;
 }
 
 /* My name with gif background */
 
 h1.banner {
-    font-size: 12vw;
+    font-size: 10vw;
     max-width: 100%;
     height: 90vh;
     background: url("https://media0.giphy.com/media/2hgs0P312wdBCOgOAf/giphy.gif");
