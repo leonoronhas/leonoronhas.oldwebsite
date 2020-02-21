@@ -1,15 +1,32 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    /* padding: 20; */
     font-family: 'Lato', sans-serif;
-    background-color: black;
-    color: #6BC6F6;
+    color: black;
 }
 
 .container {
     position: relative;
 }
 
+/* Titles and line */
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.line {
+    display: block;
+    width: 290px;
+    height: 3px;
+    padding: 0!important;
+    background: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+	float: none;
+}
 
 /* My name text background */
 
@@ -18,66 +35,53 @@ div.introText {
     padding: 40px;
 }
 
-
-/* Scroll arrow down on intro page*/
-
-h1 img {
-    max-width: 8%;
-}
-
 /* My name with gif background */
 
 h1.banner {
-    font-size: 10vw;
+    font-size: 20vh;
     max-width: 100%;
-    height: 90vh;
-    background: url("https://media0.giphy.com/media/2hgs0P312wdBCOgOAf/giphy.gif");
+    height: 80vh;
+    /* background: url("https://media0.giphy.com/media/2hgs0P312wdBCOgOAf/giphy.gif"); */
+    background: url("https://media1.giphy.com/media/l1J9ENegnLn0JxY4g/giphy.gif");
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
     text-transform: uppercase;
     margin: 0;
+    color: white;
 }
 
 header {
     position: sticky;
     top: 0;
     width: 100%;
-    height: 70px;
+    height: 40px;
     background: #000;
     padding: 0 100px;
     box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    color: #6BC6F6;
-    text-decoration: none;
-    font-weight: 800;
-    font-size: 30px;
-    text-transform: uppercase;
+    text-align: center;
 }
 
 /* Design for nav buttons */
 
 ul {
-    display: flex;
+    display: inline-flex;
     margin: 0;
     padding: 0;
-    height: 50px;
+    /* height: 50px; */
+    text-align: center;
 }
 
 ul li {
     list-style: none;
-    line-height: 50px;
+    line-height: 30px;
 }
 
 ul li a {
-    color: #6BC6F6;
+    color: white;
     text-decoration: none;
     padding: 0 15px;
+    text-transform: uppercase;
 }
 
 /* Underline From Center */
@@ -99,7 +103,7 @@ ul li a {
     left: 51%;
     right: 51%;
     bottom: 0;
-    background: #6BC6F6;
+    background: white;
     height: 2px;
     -webkit-transition-property: left, right;
     transition-property: left, right;
@@ -108,7 +112,7 @@ ul li a {
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
- 
+
 .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
     left: 0;
     right: 0;
@@ -118,22 +122,14 @@ ul li a {
 
 .content {
     width: 100%;
-    padding: 100px;
+    padding: 60px;
     box-sizing: border-box;
 }
-
-
 
 /* About me image design  */
 
 p img.meImage {
     max-width: 40%;
     float: left;
+    margin-right: 25px;
 }
-
-
-
-
-
-
-
