@@ -1,3 +1,5 @@
+/* Body and universal design */
+
 body {
     margin: 0%;
     /* padding: 20; */
@@ -25,7 +27,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
-	float: none;
+    float: none;
 }
 
 /* My name text background */
@@ -50,6 +52,8 @@ h1.banner {
     margin: 0;
     color: white;
 }
+
+/* Header design */
 
 header {
     position: sticky;
@@ -130,6 +134,28 @@ ul li a {
 
 p img.meImage {
     max-width: 40%;
+    float: left;
+    margin-right: 25px;
+}
+
+/* About me div designs */
+
+div.aboutMe {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* Experience design */
+
+div.experience {}
+
+div.insideExperience {
+    display: flex;
+}
+
+img.experienceImages {
+    max-width: 30%;
+    height: auto;
     float: left;
     margin-right: 25px;
 }
