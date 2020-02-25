@@ -2,7 +2,7 @@
 
 body {
     margin: 0%;
-    /* padding: 20; */
+    display: inline-block;
     font-family: 'Lato', sans-serif;
     color: black;
 }
@@ -58,12 +58,11 @@ h1.banner {
 header {
     position: sticky;
     top: 0;
-    width: 100%;
     height: 40px;
     background: #000;
     padding: 0 100px;
-    box-sizing: border-box;
     text-align: center;
+    border-bottom: 1px solid white;
 }
 
 /* Design for nav buttons */
@@ -126,7 +125,6 @@ ul li a {
 
 .content {
     width: 100%;
-    padding: 60px;
     box-sizing: border-box;
 }
 
@@ -140,22 +138,65 @@ p img.meImage {
 
 /* About me div designs */
 
+.aboutMeDiv {
+    padding: 20px;
+    padding-top: 10px;
+}
+
 div.aboutMe {
     display: flex;
     flex-direction: column-reverse;
 }
 
+/* Skills design */
+
+.skillsDiv {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: white;
+}
+
+div.skills {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skillsTitle {
+    font-size: 20px;
+    font-weight: 800;
+    font-style: italic;
+}
+
 /* Experience design */
 
-div.experience {}
+.experienceDiv {
+    padding: 20px;
+    padding-top: 10px;
+}
+
+div h4 {
+    font-style: italic;
+}
 
 div.insideExperience {
     display: flex;
 }
 
-img.experienceImages {
-    max-width: 30%;
-    height: auto;
-    float: left;
-    margin-right: 25px;
+/* Education design */
+
+.educationDiv {
+    padding: 20px;
+    padding-top: 10px;
+    background-color: black;
+    color: white;
+}
+
+div h4 {
+    font-style: italic;
+}
+
+div.insideEducation {
+    display: flex;
+    justify-content: space-evenly;
 }
