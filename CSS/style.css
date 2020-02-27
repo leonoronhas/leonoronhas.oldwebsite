@@ -255,7 +255,7 @@ ul li a {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
     h1#banner {
         font-size: 20vw;
         max-width: 100%;
