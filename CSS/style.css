@@ -44,17 +44,20 @@ div.introText {
 /* My name with gif background */
 
 h1#banner {
-    font-size: 20vh;
+    font-size: 13vw;
     max-width: 100%;
-    height: 80vh;
+    height: 90vh;
     /* background: url("https://media0.giphy.com/media/2hgs0P312wdBCOgOAf/giphy.gif"); */
-    background: url("https://media1.giphy.com/media/l1J9ENegnLn0JxY4g/giphy.gif");
+    background: url("https://media3.giphy.com/media/HNh4gzTjX7ji0/source.gif");
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
     text-transform: uppercase;
     margin: 0;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ----------------------------------------------
@@ -119,7 +122,6 @@ ul {
     display: inline-flex;
     margin: 0;
     padding: 0;
-    /* height: 50px; */
     text-align: center;
 }
 
@@ -183,8 +185,8 @@ ul li a {
  */
 
 .tracking-in-expand2 {
-    -webkit-animation: tracking-in-expand2 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 4s both;
-    animation: tracking-in-expand2 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 4s both;
+    -webkit-animation: tracking-in-expand2 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 5s both;
+    animation: tracking-in-expand2 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 5s both;
 }
 
 @-webkit-keyframes tracking-in-expand2 {
@@ -220,116 +222,49 @@ ul li a {
     box-sizing: border-box;
 }
 
-/* About me image design  */
+/* ===================================== */
+/* All media queries */
+/* ===================================== */
 
-p img.meImage {
-    max-width: 40%;
-    float: left;
-    margin-right: 25px;
+@media screen and (max-width: 1250px) {
+    h1#banner {
+        font-size: 15vw;
+        max-width: 100%;
+        height: 95vh;
+    }
 }
 
-/* About me div designs */
-
-.aboutMeDiv {
-    padding: 20px;
-    padding-top: 10px;
+@media screen and (max-width: 1050px) {
+    h1#banner {
+        font-size: 15vw;
+        max-width: 100%;
+        height: 95vh;
+    }
+    header {
+        display: none;
+    }
 }
 
-.aboutMeIntro {
-    text-align: center;
-    padding: 60px;
-    padding-top: 0;
-    padding-bottom: 0;
+@media screen and (max-width: 770px) {
+    h1#banner {
+        font-size: 15vw;
+        max-width: 100%;
+        height: 95vh;
+    }
+    header {
+        display: none;
+    }
 }
 
-div.aboutMe {
-    display: flex;
-    flex-direction: column-reverse;
-}
+@media screen and (max-width: 400px){
+    h1#banner {
+        font-size: 15vw;
+        max-width: 100%;
+        height: 130vh;
+    }
+    header {
+        display: none;
+    }
 
-/* Skills design */
-
-.skillsDiv {
-    padding-top: 10px;
-    padding-bottom: 20px;
-    background-color: black;
-    color: white;
-}
-
-div.skills {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.skillsTitle {
-    font-size: 20px;
-    font-weight: 800;
-    font-style: italic;
-}
-
-/* Experience design */
-
-.experienceDiv {
-    padding: 20px;
-    padding-top: 10px;
-}
-
-.experience {
-    display: flex;
-}
-
-div h4 {
-    font-style: italic;
-}
-
-div.insideExperience {
-    display: flex;
-    padding: 20px;
-}
-
-/* Education design */
-
-.educationDiv {
-    padding: 20px;
-    padding-top: 10px;
-    background-color: black;
-    color: white;
-}
-
-div h4 {
-    font-style: italic;
-}
-
-div.insideEducation {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-/* Contact design */
-
-.contactDiv {
-    padding: 20px;
-    padding-top: 10px;
-    background-color: black;
-    color: white;
-}
-
-.contactSocial {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.contactIcons {
-    text-align: center;
-}
-
-/* Footer design */
-
-footer {
-    background-color: black;
-    text-align: center;
-    color: white;
-    padding: 50px;
-    padding-top: 150px;
-    padding-bottom: 30px;
+   
 }

@@ -1,0 +1,19 @@
+/* Skills design */
+
+.skillsDiv {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: white;
+}
+
+div.skills {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skillsTitle {
+    font-size: 20px;
+    font-weight: 800;
+    font-style: italic;
+}

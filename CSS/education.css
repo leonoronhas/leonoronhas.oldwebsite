@@ -1,0 +1,17 @@
+/* Education design */
+
+.educationDiv {
+    padding: 20px;
+    padding-top: 10px;
+    background-color: black;
+    color: white;
+}
+
+div h4 {
+    font-style: italic;
+}
+
+div.insideEducation {
+    display: flex;
+    justify-content: space-evenly;
+}

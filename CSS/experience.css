@@ -1,0 +1,19 @@
+/* Experience design */
+
+.experienceDiv {
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.experience {
+    display: flex;
+}
+
+div h4 {
+    font-style: italic;
+}
+
+div.insideExperience {
+    display: flex;
+    padding: 20px;
+}
