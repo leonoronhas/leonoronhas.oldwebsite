@@ -3,6 +3,7 @@
 .projectsDiv {
     padding: 20px;
     padding-top: 10px;
+    text-align: center;
 }
 
 div.insideProjects {
@@ -23,4 +24,21 @@ div.insideProjects {
 .leoLogo {
     max-width: 220px;
     height: auto;
+}
+
+@media screen and (max-width: 550px){
+    div.insideProjects {
+        display: inline-block;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .oblivion {
+        max-width: 300px;
+        height: auto;
+    }
+    
+    .leoLogo {
+        max-width: 320px;
+        height: auto;
+    }
 }

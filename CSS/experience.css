@@ -17,3 +17,39 @@ div.insideExperience {
     display: flex;
     padding: 20px;
 }
+
+@media screen and (max-width: 550px) {
+    /* Experience design */
+    .experienceDiv {
+        padding: 20px;
+        padding-top: 10px;
+        display: inline-block;
+    }
+    .experience {
+        display: inline-block;
+    }
+    div h4 {
+        font-style: italic;
+    }
+    div.insideExperience {
+        display: flex;
+        padding: 20px;
+    }
+    div.insideExperience div li {
+        font-size: 20px;
+    }
+    div.insideExperience div h6 {
+        font-size: 20px;
+        text-align: center;
+    }
+    div.insideExperience div label {
+        font-size: 30px;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    div.insideExperience div h4 {
+        font-size: 25px;
+        text-align: center;
+    }
+}

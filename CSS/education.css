@@ -15,3 +15,33 @@ div.insideEducation {
     display: flex;
     justify-content: space-evenly;
 }
+
+@media screen and (max-width: 550px) {
+    /* Education design */
+    .educationDiv {
+        padding: 20px;
+        padding-top: 10px;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    div h4 {
+        font-style: italic;
+    }
+    div.insideEducation {
+        display: inline-block;
+        justify-content: space-evenly;
+    }
+    div.insideEducation div h4 {
+        font-size: 25px;
+    }
+    div.insideEducation div label {
+        font-size: 30px;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    div.insideEducation div p {
+        font-size: 20px;
+    }
+}
