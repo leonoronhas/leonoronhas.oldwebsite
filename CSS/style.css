@@ -51,7 +51,7 @@ h1#banner {
     text-align: center;
     text-transform: uppercase;
     margin: 0;
-    /* color: white; */
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
