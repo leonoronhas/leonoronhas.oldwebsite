@@ -240,15 +240,7 @@ ul li a {
         height: 95vh;
     }
     header {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 551px) {
-    h1#banner {
-        font-size: 15vw;
-        max-width: 100%;
-        height: 100vh;
+        font-size: larger;
     }
 }
 

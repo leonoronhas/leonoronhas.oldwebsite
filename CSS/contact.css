@@ -30,3 +30,9 @@ footer {
 footer p {
     padding-top: 80px;
 }
+
+@media screen and (max-width: 550px) {
+    .contactSocial {
+        display: inline;
+    }
+}
