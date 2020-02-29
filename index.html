@@ -8,7 +8,7 @@
                                         Come check his work and contact Leo with any inquiries.">
     <title>Leo Noronha Santos</title>
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-   
+
     <link rel="stylesheet" type="text/css" href="./CSS/aboutMe.css">
     <link rel="stylesheet" type="text/css" href="./CSS/skills.css">
     <link rel="stylesheet" type="text/css" href="./CSS/education.css">
@@ -16,14 +16,58 @@
     <link rel="stylesheet" type="text/css" href="./CSS/projects.css">
     <link rel="stylesheet" type="text/css" href="./CSS/contact.css">
     <link rel="stylesheet" type="text/css" href="./CSS/style.css">
-    <script src="./JS/script.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="./CSS/bpen.drawer.css">
+
+    <script src="./JS/bpen.drawer.js" defer></script>
+    <script type="text/javascript">
+        var drawer;
+        window.addEventListener("load", function () {
+            drawer = bpen.drawer("mainMenu",
+                {
+                    Items: [
+                        {
+                            Text: "Home",
+                            Url: "#Home"
+                        },
+                        {
+                            Text: "About",
+                            Url: "#About"
+                        },
+                        {
+                            Text: "Skills",
+                            Url: "#Skills"
+                        },
+                        {
+                            Text: "Experience",
+                            Url: "#Experience"
+                        },
+                        {
+                            Text: "Education",
+                            Url: "#Education"
+                        },
+                        {
+                            Text: "Projects",
+                            Url: "#Projects"
+                        },
+                        {
+                            Text: "Contact",
+                            Url: "#Contact"
+                        }
+                    ],
+                    Anchor: 'right'
+                }
+            );
+        }, false);
+
+    </script>
 </head>
 
 <body>
+    <div id="mainMenu"></div>
     <div class="container">
         <div class="introText" id="intro">
             <h1 id="banner" class="tracking-in-expand">
-                Leo <br>
+                Leo <br id#Home>
                 Noronha<br>
                 Santos<br>
             </h1>
