@@ -26,6 +26,12 @@ div.insideProjects {
     height: auto;
 }
 
+.guessApp {
+    padding-top: 30px;
+    max-width: 200px;
+    height: auto;
+}
+
 @media screen and (max-width: 550px){
     div.insideProjects {
         display: inline-block;
