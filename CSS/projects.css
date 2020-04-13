@@ -24,12 +24,21 @@ div.insideProjects {
 .leoLogo {
     max-width: 220px;
     height: auto;
+    border-radius: 10px;
 }
 
 .guessApp {
     padding-top: 30px;
     max-width: 200px;
     height: auto;
+    border-radius: 10px;
+}
+
+.mealApp {
+    padding-top: 30px;
+    max-width: 230px;
+    height: auto;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 550px){
