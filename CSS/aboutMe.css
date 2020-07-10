@@ -26,6 +26,8 @@ p img.meImage {
 div.aboutMe {
     display: flex;
     flex-direction: column-reverse;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 /* ----------------------------------------------
@@ -122,6 +124,8 @@ div.aboutMe {
     div.aboutMe {
         display: flex;
         /* flex-direction: column-reverse; */
+        padding-left: 0px;
+        padding-right: 0px;
     }
     p {
         font-size: 20px;
